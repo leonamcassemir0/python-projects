@@ -19,13 +19,9 @@ print(sales.min())
 """
 
 # Criar uma tabela simples
-x = [250, 500, 1000, 2000, 3000]
-y = [250, 500, 1000, 2000, 3000]
-sales['Unit_Cost'].plot(kind='bar')
+sales['Unit_Cost'].plot(kind='hist')
 plt.xlabel("exemplo x")
 plt.ylabel("exemplo y")
 print(sales['Unit_Cost'].min())
 print(sales['Unit_Cost'].max())
-
-# sales['Unit_Cost'].plot(kind='density', figsize=(14, 6))
 plt.show()
